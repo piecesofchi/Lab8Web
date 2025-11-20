@@ -7,6 +7,7 @@ Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka
 melalui browser: http://localhost/phpmyadmin/
 
 ## Membuat Database: Studi Kasus Data Barang
+
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/943fa688-d17d-4658-bdab-ee5d2fb232ed" />
 
 ### Membuat Database
@@ -24,6 +25,7 @@ melalui browser: http://localhost/phpmyadmin/
     );
 
 ### Menambahkan Data
+
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/7b4f14bf-07fc-4a4e-b3f1-ef60836089ef" />
 
     INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
@@ -33,10 +35,12 @@ melalui browser: http://localhost/phpmyadmin/
 
 ### Membuat Program CRUD
 Buat folder lab8_php_database pada root directory web server (d:\xampp\htdocs)
+
 <img width="597" height="445" alt="image" src="https://github.com/user-attachments/assets/3b485263-9de2-4d03-8b4d-5325cd2f87ef" />
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab8_php_database/
+
 <img width="960" height="540" alt="1" src="https://github.com/user-attachments/assets/bd3022b3-b9d1-4219-8f7c-acf34419fc15" />
 
 ### Membuat file koneksi database
@@ -61,6 +65,7 @@ koneksi berhasil, uncomment pada perintah echo “koneksi berhasil”;
 
 ### Membuat file index untuk menampilkan data (Read)
 Buat file baru dengan nama index.php
+
 <img width="379" height="174" alt="image" src="https://github.com/user-attachments/assets/7848dfcd-d3d1-46fe-a6c9-3653d62572c7" />
 
     <?php 
@@ -117,6 +122,7 @@ Buat file baru dengan nama index.php
 
 ### Menambah Data (Create)
 Buat file baru dengan nama tambah.php
+
 <img width="214" height="253" alt="image" src="https://github.com/user-attachments/assets/50978416-25df-4db0-ac2d-d1c394c995d6" />
 
     <?php 
@@ -202,6 +208,7 @@ Buat file baru dengan nama tambah.php
 
 ### Mengubah Data (Update)
 Buat file baru dengan nama ubah.php
+
 <img width="226" height="267" alt="image" src="https://github.com/user-attachments/assets/7cb47dcf-dfb7-446b-88ec-ac9e1337e793" />
 
     <?php 
@@ -315,6 +322,7 @@ Buat file baru dengan nama ubah.php
 
 ### Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php
+
 <img width="460" height="156" alt="image" src="https://github.com/user-attachments/assets/77adcee2-91fb-4fdb-96c3-190d0abc870b" />
 
     <?php 
