@@ -1,6 +1,7 @@
 # Lab8Web
 
 <img width="504" height="327" alt="image" src="https://github.com/user-attachments/assets/22b33863-db22-45f0-b770-91a8eaf647a4" />
+
 Mengakses MySQL Client menggunakan PHP MyAdmin
 Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka
 melalui browser: http://localhost/phpmyadmin/
@@ -60,6 +61,7 @@ koneksi berhasil, uncomment pada perintah echo “koneksi berhasil”;
 
 ### Membuat file index untuk menampilkan data (Read)
 Buat file baru dengan nama index.php
+<img width="379" height="174" alt="image" src="https://github.com/user-attachments/assets/7848dfcd-d3d1-46fe-a6c9-3653d62572c7" />
 
     <?php 
     include("koneksi.php"); 
@@ -115,6 +117,7 @@ Buat file baru dengan nama index.php
 
 ### Menambah Data (Create)
 Buat file baru dengan nama tambah.php
+<img width="214" height="253" alt="image" src="https://github.com/user-attachments/assets/50978416-25df-4db0-ac2d-d1c394c995d6" />
 
     <?php 
     error_reporting(E_ALL); 
@@ -199,6 +202,7 @@ Buat file baru dengan nama tambah.php
 
 ### Mengubah Data (Update)
 Buat file baru dengan nama ubah.php
+<img width="226" height="267" alt="image" src="https://github.com/user-attachments/assets/7cb47dcf-dfb7-446b-88ec-ac9e1337e793" />
 
     <?php 
     error_reporting(E_ALL); 
@@ -311,6 +315,7 @@ Buat file baru dengan nama ubah.php
 
 ### Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php
+<img width="460" height="156" alt="image" src="https://github.com/user-attachments/assets/77adcee2-91fb-4fdb-96c3-190d0abc870b" />
 
     <?php 
     include_once 'koneksi.php'; 
